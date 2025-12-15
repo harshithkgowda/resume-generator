@@ -1,30 +1,22 @@
 # Resume generator
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+**Data Processing**
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/harshithkgowda37-gmailcoms-projects/v0-resume-generator)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/ruubXjD8BJP)
+- Extracts user profile data from GitHub API (name, bio, location, repositories, languages)
+- Processes form inputs across multiple steps (personal info, experience, education, skills, etc.)
+- Transforms resume data into structured format for templates and ATS analysis
 
-## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+**Data Cleaning**
 
-## Deployment
+- Sanitizes imported GitHub data (validates arrays, trims strings, handles missing fields)
+- Validates URL formats for GitHub/LinkedIn/Portfolio links
+- Ensures data structure consistency when merging imported data with form data
 
-Your project is live at:
 
-**[https://vercel.com/harshithkgowda37-gmailcoms-projects/v0-resume-generator](https://vercel.com/harshithkgowda37-gmailcoms-projects/v0-resume-generator)**
+**Data Presentation**
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/ruubXjD8BJP](https://v0.app/chat/ruubXjD8BJP)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- 4 ATS-optimized resume templates (Professional, Modern, Executive, Technical)
+- Progress tracking with completion percentage visualization
+- ATS score display with animated circular progress and categorized feedback (strengths/improvements)
+- Step-by-step wizard UI for organized data entry
