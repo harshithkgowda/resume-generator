@@ -45,7 +45,7 @@ Environment-based configuration
 
 nstallation & Setup
 # Clone the repository
-git clone https://github.com/your-username/resume-generator.git
+git clone(https://github.com/harshithkgowda/resume-generator.git)
 
 # Navigate to project directory
 cd resume-generator
